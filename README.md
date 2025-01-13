@@ -8,6 +8,11 @@ A simple platform to share useful AI prompts
 
 ## Todo
 
-- Implement Search
-- Implement Click on tag
-- Implement View other profiles
+Implement Search
+
+- search by prompt
+- search by tag
+- search by username
+
+Implement Click on tag
+Implement View other profiles
