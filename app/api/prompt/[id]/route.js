@@ -42,7 +42,7 @@ export const DELETE = async (req, { params }) => {
   try {
     const { id } = await params;
     await connectToDatabase();
-    const deletedPrompt = await Prompt.findByIdAndRemove(id);
+    const deletedPrompt = await Prompt.findByIdAndDelete(id);
 
     if (!deletedPrompt) {
       return new Response("Prompt not found", { status: 404 });
